@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\MedicaController;
 use Illuminate\Support\Facades\Route;
 
+Route::resource('medico', MedicoController::class);
 /*
 |--------------------------------------------------------------------------
 | Web Routes
